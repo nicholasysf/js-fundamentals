@@ -21,3 +21,10 @@ function capitalize(string){
 }
 
 console.log(capitalize("testing this function"))
+
+//fourth function
+function lastLetter(myString){
+  return myString.charAt(myString.length-1);
+}
+
+console.log(lastLetter("this is a very long sentencE"))

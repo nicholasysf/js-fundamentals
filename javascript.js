@@ -1,20 +1,23 @@
-let name = prompt("Who's there?");
-if ( name === "Admin") {
-    let password = prompt("What is your password?");
-    if (password === "TheMaster" ) { 
-        alert("Welcome back master.");
-    }
-    else if (password == "" || password == null){
-        alert("Cancelled");
-    }
-    else{
-        alert("Wrong password.")
-    }
-}
-else if (name == "" ||  name == null){
-    alert("Cancelled");
+// first function
+function add7(number) {
+  sum = number + 7;
+  return sum;
 }
 
-else{
-    alert("I dont know you my G.")
+console.log(add7(8))
+
+// second function
+function multiply(num1,num2){
+  result = num1 * num2;
+  return result;
 }
+
+console.log(multiply(3,4))
+
+//third function 
+function capitalize(string){
+  return string.charAt(0).toUpperCase() + string.slice(1);
+  
+}
+
+console.log(capitalize("testing this function"))

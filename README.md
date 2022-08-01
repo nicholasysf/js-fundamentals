@@ -1,1 +1,1 @@
-# js-fundamentals
+Just working on some JavaScript fundamentals.
